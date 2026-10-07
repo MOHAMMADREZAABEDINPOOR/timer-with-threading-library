@@ -1,34 +1,54 @@
 <div align="center">
 
-<img src="assets/readme/hero.gif" width="1200" alt="TWO THREADED TIMERS — rotating 3D geometry" />
+<img src="assets/readme/hero.gif" width="1200" alt="TWO THREADED TIMERS: two independent stopwatch mechanisms" />
 
 **[English](README.md) · [فارسی](README.fa.md)**
 
-<img src="assets/readme/identity.svg" width="1200" alt="learning / English and Persian documentation" />
-
 </div>
 
-# TWO THREADED TIMERS
+<div dir="rtl">
+
+# ⏱️ TWO THREADED TIMERS
 
 تمرین Tkinter و threading با دو شمارنده معکوس قابل شروع مستقل.
 
 [GitHub](https://github.com/MOHAMMADREZAABEDINPOOR/timer-with-threading-library) · [PIMX / Profile](https://github.com/MOHAMMADREZAABEDINPOOR) · [بنر ثابت](assets/readme/hero.png)
 
-## امکانات
+| نمای کلی | جزئیات |
+|:---|:---|
+| ⏱️ تجربه | تمرین آموزشی / آرشیو کد |
+| 🧰 فناوری | `Python` |
+| 🌐 زبان راهنما | [English](README.md) · [فارسی](README.fa.md) |
 
-- دو ورودی شمارش معکوس
-- نخ کاری مستقل
-- کنترل خروج
+[✨ امکانات](#امکانات) · [🚀 شروع کار](#شروع-کار) · [⚙️ تنظیمات](#تنظیمات) · [🌍 استقرار](#استقرار)
 
-## پشته فنی
+---
+
+<a id="امکانات"></a>
+
+## ✨ امکانات
+
+| بخش | قابلیت موجود |
+|:---|:---|
+| 🔢 منطق | دو ورودی شمارش معکوس |
+| ⚡ روند کار | نخ کاری مستقل |
+| ⚡ روند کار | کنترل خروج |
+
+<a id="پشته-فنی"></a>
+
+## 🧰 پشته فنی
 
 | ابزار | نسخه یا منبع |
 |---|---|
 | Python | `standard library / source imports` |
 
-## شروع کار
+<a id="شروع-کار"></a>
+
+## 🚀 شروع کار
 
 Python 3 و محیط دسکتاپ برای پروژه‌های Tkinter/Turtle؛ Tkinter از اجزای نصب Python است و با pip نصب نمی‌شود. برای وابستگی‌های قدیمی از نسخه Python سازگار استفاده کنید.
+
+<div dir="ltr">
 
 ```bash
 git clone https://github.com/MOHAMMADREZAABEDINPOOR/timer-with-threading-library.git
@@ -37,46 +57,76 @@ cd timer-with-threading-library
 python "timer.py"
 ```
 
-## تنظیمات
+</div>
+
+<a id="تنظیمات"></a>
+
+## ⚙️ تنظیمات
 
 فایل محیط استاندارد تعریف نشده است. برای تمرین‌های مستقل تنظیم خارجی لازم نیست؛ اگر در کد ثابت‌های سرویس یا مسیر وجود دارد، آن‌ها را پیش از اجرا بررسی کنید.
 
-## استفاده
+<a id="استفاده"></a>
+
+## 🎯 استفاده
 
 عدد صحیح وارد و با هر Start شمارش مربوط را آغاز کنید.
 
-## ساختار پروژه
+<a id="ساختار-پروژه"></a>
+
+## 🗂️ ساختار پروژه
 
 | مسیر | نقش |
 |---|---|
 | [`assets/`](assets/) | فایل برند، رسانه و README |
 | [`timer.py`](timer.py) | فایل ورودی یا تنظیم پروژه |
 
-## فرمان‌ها و بررسی
+<a id="فرمان‌ها-و-بررسی"></a>
+
+## 🧪 فرمان‌ها و بررسی
 
 فرمان آزمون خودکار در manifest تعریف نشده است. اجرای محلی و بررسی رفتار نمونه را انجام دهید.
 
-## استقرار
+<a id="استقرار"></a>
+
+## 🌍 استقرار
 
 این تمرین محلی است و سرویس عمومی ندارد. برای تمرین وب میزبانی استاتیک کافی است.
 
-## محدودیت‌ها
+<a id="محدودیت‌ها"></a>
+
+## 📌 محدودیت‌ها
 
 نخ کاری مستقیماً Tkinter را تغییر می‌دهد؛ برای رفتار پایدار باید زمان‌بندی نخ اصلی استفاده شود.
 
-## رفع مشکل
+<a id="رفع-مشکل"></a>
+
+## 🛠️ رفع مشکل
 
 - رابط غایب: برای مثال Tkinter یا Turtle از Python دسکتاپ با Tk استفاده کنید.
 - ورودی نامعتبر: قالب عدد و متن مورد انتظار فایل را وارد کنید.
 
-## مشارکت
+<a id="مشارکت"></a>
+
+## 🤝 مشارکت
 
 برای تغییر، شاخه مستقل بسازید، رفتار فعلی را بررسی کنید و توضیح روشن همراه تغییر بفرستید. اطلاعات خصوصی، خروجی build و دیتابیس محلی را commit نکنید.
 
-## مجوز
+<a id="مجوز"></a>
+
+## 📄 مجوز
 
 فایل مجوز در این نسخه موجود نیست. نمایش عمومی کد به‌تنهایی مجوز استفاده مجدد نیست؛ برای شرایط استفاده با مالک مخزن هماهنگ کنید.
 
 ---
 
 ساخته‌شده در مجموعه **PIMX** · مستندات فارسی و انگلیسی.
+
+---
+
+<div align="center">
+
+⏱️ **TWO THREADED TIMERS** · [English](README.md) · [فارسی](README.fa.md)
+
+</div>
+
+</div>
